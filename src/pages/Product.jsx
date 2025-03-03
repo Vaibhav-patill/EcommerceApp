@@ -79,7 +79,7 @@ const Product = () => {
               ))}
             </div>
           </div>
-          <button onClick={()=>addToCart(productData._id,size)} className="bg-black text-white border  px-4 py-2 text-sm active:bg-gray-700">
+          <button onClick={()=>addToCart(productData._id,size)} className="bg-black text-white border  px-4 py-2 text-sm active:bg-gray-700 cursor-pointer">
             ADD TO CART
           </button>
           <hr className="mt-8 sm:w-4/5" />
